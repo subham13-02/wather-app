@@ -32,12 +32,10 @@ This is a weather dashboard application that allows users to search for the curr
 
 - The weather information, including temperature, weather description, humidity, wind speed, and more, will be displayed on the dashboard.
 
-- To toggle between Celsius and Fahrenheit, click the "Toggle Unit" button.
-
 - If the entered city is not found or if there's an issue with the API request, an error message will be displayed.
 
 ## Deployment
-This project has been deployed on Cloudflare. You can access it at .
+This project has been deployed on Cloudflare. You can access it at https://e7a655dc.wather-app-8o5.pages.dev/.
 
 ## Credits
 - Weather data is provided by OpenWeatherMap.
