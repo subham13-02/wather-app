@@ -22,7 +22,6 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(60, 139, 132, 0.082);
   }
   .card{
     width:80%;
@@ -56,12 +55,19 @@ body {
     justify-content: center;
   }
   input[type="text"] {
+    background-color: rgba(2, 156, 148, 0.116);
     padding: 8px;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
     width: 80%;
-    border: 1px solid #ccc;
+    border: 2px solid rgb(2, 156, 149);
     border-radius: 4px;
     margin-right: 10px;
     font-size: 16px;
+  }
+  input[type="text"]:hover{
+    outline: 1px solid rgb(2, 156, 149);
   }
   
   button {
