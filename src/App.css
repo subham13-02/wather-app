@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.title{
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+/* Global styles */
+body {
+    width:100%;
+    background-color: #053435;
+    color:white;
+  }
+  
+  .App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(60, 139, 132, 0.082);
+  }
+  .card{
+    width:80%;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:1.5rem;
+  }
+  .temp-container{
+    padding: 1.5rem;
+    min-width:35%;
+    background-color: #627f7f27;
+    border:2px solid rgb(2, 156, 149);
+    font-size: 2rem;
+    height: 400px;
+    border-radius: 8px;
+  }
+  .b{
+    font-size: 70px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  
+  /* CitySearch component styles */
+  .search{
+    width: 90%;
+    display:flex;
+    justify-content: center;
+  }
+  input[type="text"] {
+    padding: 8px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color:rgb(2, 156, 149);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* WeatherDisplay component styles */
+  img {
+    width: 200px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  .parameters-cotainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    gap:1rem;
+    min-height: 500px;
+  }
+  .parameter{
+    width :250px;
+    height: 100px;
+    background-color: #627f7f27;
+    padding:0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2.5rem;
+    border-radius: 5px;
+  }
+  .grey{
+    font-size: 1.5rem;
+    color: rgb(2, 156, 149);
+  }
+  .bold{
+    font-size: 2rem;
+  }
+  .error-card {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .error-icon {
+    font-size: 24px;
+    color: #721c24;
+    margin-right: 10px;
+  }
+  
+  .error-message {
+    font-size: 16px;
+    color: #721c24;
+  }
+  
